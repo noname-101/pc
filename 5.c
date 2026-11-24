@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <mpi.h>
-#include <conio.h>
-
 int main(int argc, char *argv[])
 {
     int rank, size;
@@ -29,8 +27,6 @@ int main(int argc, char *argv[])
     }
 
     MPI_Finalize();
-
-    getch();
 
     return 0;
 }

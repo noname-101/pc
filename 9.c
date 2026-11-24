@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <mpi.h>
-#include <conio.h>
 
 int main(int argc, char *argv[])
 {
@@ -42,6 +41,5 @@ int main(int argc, char *argv[])
            rank, allsum);
 
     MPI_Finalize();
-    getch();
     return 0;
 }
