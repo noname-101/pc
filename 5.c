@@ -30,3 +30,5 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+//!apt-get install -y openmpi-bin libopenmpi-dev
+//!mpirun --allow-run-as-root --oversubscribe -np 2 ./program
